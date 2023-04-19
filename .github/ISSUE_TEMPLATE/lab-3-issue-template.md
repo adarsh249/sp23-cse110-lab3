@@ -7,5 +7,5 @@ assignees: adarsh249
 
 ---
 
-# Lab3 Tempate
+# Lab3 Template
 Write here what the step needed is to complete this task. For example, "Create meeting minutes template" or "style meeting minutes".
