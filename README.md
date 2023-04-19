@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://adarsh249.github.io/CSE110_Lab2/
+# Lab3
+https://adarsh249.github.io/sp23-cse110-lab3/
