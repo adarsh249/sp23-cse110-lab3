@@ -1,0 +1,47 @@
+.UCList {
+    background-color:navy;
+    color: rgba(254, 206, 1, 255);
+    padding-top: 10px;
+    width: 190px;
+    border-radius: 20px;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+
+}
+fieldset {
+    border: none;
+    
+}
+input[type="radio"] {
+    appearance: none;
+    border-color: black;
+    background-color: white;
+    width: 13px;
+    height: 13px;
+    border: 2px;
+    border-radius: 5px;
+}
+input[type="radio"]:hover {
+    background-color: rgba(254, 206, 1, 255);
+}
+input[type="radio"]:checked {
+    background-color: rgba(254, 206, 1, 255);
+    width: 10px;
+    height: 10px;
+}
+
+#button1 {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #2F4858;
+    color: #F6AE2D;
+    font-family: 'Maven Pro', sans-serif;
+}
+#button1:hover {
+    background-color: #F6AE2D;
+    color: #2F4858;
+}
+#button1:active {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 100%, 50%);
+}
