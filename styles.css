@@ -141,3 +141,7 @@ nav.sections ul li {
 main {
     display: grid;
 }
+
+footer {
+    display: none;
+}
