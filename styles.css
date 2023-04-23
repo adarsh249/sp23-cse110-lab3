@@ -45,3 +45,46 @@ input[type="radio"]:checked {
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 100%, 50%);
 }
+
+.CSSForm {
+    background-color: green;
+    font-family: 'DynaPuff', cursive;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 8%;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+}
+input[type="checkbox"] {
+    appearance: none;
+    background-color: white;
+    padding: 5mm;
+    border-radius: 3mm;
+    border-width: 5mm;
+    border-color: black;
+}
+input[type="checkbox"]:hover {
+    background-color: lightgreen;
+}
+input[type="checkbox"]:checked {
+    background-color: lightgreen;
+}
+
+* {
+    font-family: 'DynaPuff', cursive;
+}
+
+#agenda, #attendance, #lastweek, #goals, #brainstorm, #nextgoals, #QCC, #multimedia {
+    text-align: center;
+}
+header, h1, h2, h3, h4 {
+    text-decoration: underline;
+}
+@media (any-hover: hover) {
+    a:hover {
+        background: yellow;
+    }    
+}
