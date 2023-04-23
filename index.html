@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            body{
+                background-color: aquamarine;
+            }
+            header {
+                color: darkblue;
+            }
+        </style>
         <title>4/12/2023 Meeting Minutes</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="emojifavicon.ico">
@@ -23,8 +31,7 @@
     </header>
     <main>
         <section id="agenda">
-            <strong>DO NOT SHARE ANY DETAILS ABOUT THIS MEETING OR THAT IT EVEN HAPPENED.</strong>
-            <strong>KEEP MEETING CONFIDENTIAL</strong>
+            <p class="important"><strong>KEEP MEETING CONFIDENTIAL</strong> PLEASE</p>
             <h2>Meeting Minutes Agenda</h2>
             <ol>
                 <li>Attendance Check (15 mins)</li>
@@ -51,11 +58,11 @@
             </ul>
         </section>
         <section id="lastweek">
-            <h4>Unfinished Business from Last Weeek</h4>
+            <h3>Unfinished Business from Last Weeek</h3>
             <p><b>NO UNFINISHED BUSINESS!!</b> Good job team!!</p>
         </section>
         <section id="goals">
-            <h4>Goals for this Meeting</h4>
+            <h3>Goals for this Meeting</h3>
             <ul>
                 <li><b>Understand</b> how LLMs work and how we can apply them to our application.</li>
                 <li><b>Learn</b> how to efficiently use CHATGPT and other LLMs to better our application.</li>
@@ -63,7 +70,7 @@
             </ul>
         </section>
         <section id="brainstorm">
-            <h4>Team Brainstorming Activity</h4>
+            <h3>Team Brainstorming Activity</h3>
             <p>Click <a href="https://chat.openai.com/chat">this</a> to sign into CHATGPT and mess around with it.</p>
             <p>Let meeting participants unmute and brainstorm ideas about the <em>best</em> way to incorporate CHATGPT 
                into our application. <br><br><i>Note: We use <em>best</em> in stressed emphasis because there is no acutally <em>best</em>
@@ -71,20 +78,20 @@
             </p>
         </section>
         <section id="nextgoals">
-            <h4>Goals for Next Week</h4>
+            <h3>Goals for Next Week</h3>
             <p><strong>NO MEETING NEXT WEEK</strong> DUE TO LAYOFFS.</p>
         </section>
         <section id="QCC">
-            <h4>Questions, Comments, Concerns</h4>
+            <h3>Questions, Comments, Concerns</h3>
             <details>
                 <summary>Conclusion Comments Mentioned</summary>
                 There were no questions, comments, concerns at the end of this meeting.
             </details>
         </section>
         <section id="multimedia">
-            <h4>Image from Meeting</h4>
+            <h3>Image from Meeting</h3>
             <img src="https://cdn-images-1.medium.com/max/1200/1*7aviB_bdWWnBcYePcmD41w.jpeg" alt="GPT progression">
-            <h4>Video from Meeting</h4>
+            <h3>Video from Meeting</h3>
             <video controls width="250">
                 <source src="myVideo.mp4" type="video/mp4">
             </video>
@@ -106,13 +113,13 @@
     <section id="forms">
         <h3>Unrelated Forms HTML stuff</h3>
         <form>
-            <label>First name:</label><br>
-            <input type="text"><br>
+            <label style="color:skyblue">First name:</label><br>
+            <input type="text" class="box"><br>
         </form>
         <label>Write what you learned from this meeting.</label><br>
-        <textarea rows="5" cols="33">Today, we accomplished...</textarea><br>
+        <textarea rows="5" cols="33" class="box">Today, we accomplished...</textarea><br>
         <label>Pick the best chicken sandwich place:</label><br>
-        <input type="text" list="foodPlaces">
+        <input type="text" list="foodPlaces" class="box">
         <datalist id="foodPlaces">
             <option value="Chick-Fil-A"></option>
             <option value="Burger King"></option>
@@ -121,7 +128,7 @@
             <option value="I don't eat chicken."></option>
         </datalist><br><br>
         <label>Select who will win the 2023 NBA Championship</label><br><br>
-        <select>
+        <select class="box">
             <option>--Select--</option>
             <option>Milwaukee Bucks</option>
             <option>Boston Celtics</option>
@@ -155,7 +162,7 @@
             </fieldset>
         </form>
         <label>Date you read meeting minutes:</label><br>
-        <input type="date">
+        <input type="date" class="box">
         <form class="CSSForm">
             <fieldset class="CSSField">
                 <legend>Check the boxes of which HTML tags you completed in this document so far.</legend>
@@ -215,8 +222,6 @@
             <li><a href="#forms">Forms</a></li>
 
         </ul>
-        
-
     </nav>
     <footer> Copyright © 2023 Meeting Minutes Archives. All Rights Reserved</footer>
     </body>
