@@ -1,3 +1,4 @@
+/*CSS for the picking the best UC*/
 .UCList {
     background-color:navy;
     color: rgba(254, 206, 1, 255);
@@ -9,12 +10,14 @@
     border-radius: 20px;
     font-family: 'DynaPuff', cursive;
     font-weight: 400;
-
+    position: relative;
+    left: 10px;
 }
 fieldset {
     border: none;
     
 }
+/*Custom Radio Buttons*/
 input[type="radio"] {
     appearance: none;
     border-color: black;
@@ -32,7 +35,7 @@ input[type="radio"]:checked {
     width: 10px;
     height: 10px;
 }
-
+/*DO NOT PRESS BUTTON*/
 #button1 {
     padding: 15px;
     border-radius: 20px;
@@ -49,7 +52,7 @@ input[type="radio"]:checked {
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 100%, 50%);
 }
-
+/*CSS for picking the HTML elements*/
 .CSSForm {
     background-color: green;
     font-family: 'DynaPuff', cursive;
@@ -59,6 +62,7 @@ input[type="radio"]:checked {
     font-size: xx-large;
     align-content: space-between;
 }
+/*Custom Checkboxes*/
 input[type="checkbox"] {
     appearance: none;
     background-color: white;
@@ -77,14 +81,18 @@ input[type="checkbox"]:checked {
 * {
     font-family: 'DynaPuff', cursive;
 }
-
+/*Add same style to all the sections*/
 #agenda, #attendance, #lastweek, #goals, #brainstorm, #nextgoals, #QCC, #multimedia {
     text-align: center;
     margin: auto;
+    grid-column: auto;
+    grid-row: auto;
+    justify-self: center;
 }
 h1, h2, h3, h4 {
     text-decoration: underline;
 }
+/*Any hovered link should be highlighted in yellow.*/
 @media (any-hover: hover) {
     a:hover {
         background: yellow;
@@ -107,6 +115,7 @@ div + p {
 form ~ label {
     color: skyblue;
 }
+/*Any thing that's a text box should be gray.*/
 .box {
     background-color: gray;
     margin-top: 10px;
@@ -122,4 +131,13 @@ form ~ label {
 }
 p.important {
     color: red;
+}
+
+nav.sections ul li {
+    display: inline-block;
+    position: static;
+}
+
+main {
+    display: grid;
 }
