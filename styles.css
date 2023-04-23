@@ -2,6 +2,9 @@
     background-color:navy;
     color: rgba(254, 206, 1, 255);
     padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     width: 190px;
     border-radius: 20px;
     font-family: 'DynaPuff', cursive;
@@ -16,8 +19,8 @@ input[type="radio"] {
     appearance: none;
     border-color: black;
     background-color: white;
-    width: 13px;
-    height: 13px;
+    width: 1.5ex;
+    height: 1.5ex;
     border: 2px;
     border-radius: 5px;
 }
@@ -33,6 +36,7 @@ input[type="radio"]:checked {
 #button1 {
     padding: 15px;
     border-radius: 20px;
+    border-style: hidden;
     background-color: #2F4858;
     color: #F6AE2D;
     font-family: 'Maven Pro', sans-serif;
@@ -49,14 +53,11 @@ input[type="radio"]:checked {
 .CSSForm {
     background-color: green;
     font-family: 'DynaPuff', cursive;
-    margin: 2%;
-    padding: 2%;
-    border-radius: 8%;
+    margin: 5pt;
+    padding: 10pt;
+    border-radius: 30pt;
     font-size: xx-large;
-    display: flex;
-    flex-wrap: wrap;
     align-content: space-between;
-    
 }
 input[type="checkbox"] {
     appearance: none;
@@ -79,12 +80,46 @@ input[type="checkbox"]:checked {
 
 #agenda, #attendance, #lastweek, #goals, #brainstorm, #nextgoals, #QCC, #multimedia {
     text-align: center;
+    margin: auto;
 }
-header, h1, h2, h3, h4 {
+h1, h2, h3, h4 {
     text-decoration: underline;
 }
 @media (any-hover: hover) {
     a:hover {
         background: yellow;
     }    
+}
+section img {
+    width: 65vw;
+    height: auto;
+}
+
+section > video {
+    height: 20em;
+    width: auto;
+}
+
+div + p {
+    color: red;
+}
+
+form ~ label {
+    color: skyblue;
+}
+.box {
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-center;
+    row-gap: 5px;
+}
+p.important {
+    color: red;
 }
